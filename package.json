@@ -1,0 +1,34 @@
+{
+  "name": "buttons",
+  "version": "0.0.1",
+  "description": "Awesome buttons written in Sass",
+  "main": "buttons.css",
+  "dependencies": {
+    "node-sass": "^4.1.1"
+  },
+  "devDependencies": {
+    "release": "^1.1.2",
+    "sass-lint": "^1.10.2"
+  },
+  "scripts": {
+    "build": "node-sass --output-style compressed _buttons.scss > buttons.css",
+    "release": "release",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citrusui/buttons.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "less",
+    "stylus",
+    "buttons"
+  ],
+  "author": "Avery Magnotti <averymagnotti@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/citrusui/buttons/issues"
+  },
+  "homepage": "https://github.com/citrusui/buttons"
+}

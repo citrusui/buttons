@@ -1,0 +1,18 @@
+// @citrusui/buttons
+
+@import "colors";
+@import "fonts";
+
+.btn,
+.btn-blue {
+  background: linear-gradient(to bottom right, $button-color-primary, $button-color-secondary);
+  color: $button-text-color;
+  font-family: $button-sans-serif;
+  box-shadow: $button-shadow-color 0 4px 10px;
+  user-select: none;
+}
+
+.btn-lg {
+  padding: 15px 30px;
+  font-size: 20px;
+}
